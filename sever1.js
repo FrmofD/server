@@ -7,9 +7,6 @@ const server = http.createServer((request, response) => {
     response.write('==============\n');
     response.write('RAMEN\n');
     response.write('1. Quantum Truffle Ramen\n');
-
-
-    
     response.write('EXTRA TOPPINGS \\n');
     response.write('1. Hacktivist Pork\\n');
     response.write('2. Cybernetic Egg\\n');
